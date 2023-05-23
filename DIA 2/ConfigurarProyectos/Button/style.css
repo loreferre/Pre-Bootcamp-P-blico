@@ -1,0 +1,35 @@
+.btn-search, .btn-plus, .btn-CreateAccount {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-search {
+    font-weight: 900;
+    width: 140px;
+    height: 25px;
+    border-radius: 100px;
+    color: #7dc8c8;
+    border: 2px solid #7dc8c8;
+    background-color: whitesmoke
+    
+    ;
+}
+
+.btn-plus {
+    font-size: 15pt;
+    width: 40px;
+    background-color: #00d1b2;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-CreateAccount {
+    font-size: 13pt;
+    width: 180px;
+    background-color: #2b78e4;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 3px 3px black;
+}
