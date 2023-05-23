@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align:left; 
+    font-weight: bold;
+}
+    
+
+    h1 span {
+        color: cyan
+    }
+
+h2 {
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    color: white;
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
