@@ -1,0 +1,43 @@
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: rgb(71, 69, 69);
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 10px;
+}
+
+li{
+    padding: 10px 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.nav-title{
+    color: white;
+    padding-left: 15px;
+}
+
+
+.btn{
+    background-color: rgb(108, 182, 182);
+    color: aliceblue;
+    border-color: black;
+
+}
