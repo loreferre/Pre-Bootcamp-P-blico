@@ -1,0 +1,31 @@
+#HubCats, #HubCats1, #HubCats2 {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;  /* Esto centra el div en la página */
+}
+
+#HubCats{
+    background-color: rgb(180, 39, 169);
+}
+
+#HubCats1{
+    background-color: rgb(22, 133, 207);
+}
+
+#HubCats2{
+    background-color: rgb(90, 211, 141);
+}
+
+.is-centered{
+    color: blueviolet;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.row{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
