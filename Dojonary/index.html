@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Dojonary</title>
+</head>
+<body>
+    <nav class="navbar">
+    <ul class="navbar-menu">
+        <li><a href="#">Dojonary</a></li>
+    </ul>
+    <div class="search-container">
+        <input type="text" placeholder="Search" name="search">
+        <button id="loginButton" onclick="Login(this)">Login</button>
+    </div>
+</nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="user-card">
+                            <div class="card-header"></div>
+                            <div class="card-body">
+                                <h1>Ninja</h1>
+                                <h2>
+                                    noun
+                                </h2>
+                                <h3>
+                                    Plural ninjas
+                                </h3>
+                                <p>A practitioner skilled in the<br> 
+                                    <a href="#"> Janapanese</a> art of <a href="#"> ninjutsu</a></p>
+                                    <button class="btn-like" onclick="likeMessage(this)">13 likes</button>
+                            </div>
+                        </div>    
+                        <div class="user-card"></div>
+                            <div class="card-body">
+                                <h1>Ninja</h1>
+                                <h2>
+                                    noun
+                                </h2>
+                                <h3>
+                                    Plural ninjas
+                                </h3>
+                                <p>A <a href="#"> programmer</a>who braks<br> 
+                                    down problems with <a href="#"> zen</a>-like focus</p>
+                                    <button class="btn-like2" onclick="message(this)">37 likes</button>
+                            </div>
+                        </div>    
+                    <div class="col">
+                        <div class="card">
+                            <div class="user-line">
+                                <p>Dojonary is defined by <b>you</b>.</p>
+                                <button class="btn-definition" onclick="removeButton(this)">Add Definition</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <script src="./script.js"></script>            
+        </body>
+        </html>
